@@ -17,7 +17,7 @@ profile = "default"
 
 # Creating bucket
 resource "aws_s3_bucket" "website" {
-bucket = "jenkins-bucket-us7d13"
+bucket = "bucket-us7d12-plakhotin"
 
 tags = {
 Name = "Website"
