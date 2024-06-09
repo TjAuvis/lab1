@@ -11,6 +11,9 @@ version = "~> 4.0"
 # Configure AWS provider and creds
 provider "aws" {
 region = "us-east-1"
+shared_config_files = ["C:/Users/Admin/.aws/config"]
+shared_credentials_files = ["C:/Users/Admin/.aws/credentials"]
+profile = "default"
 }
 
 # Get the latest Amazon Linux ami id
